@@ -7,6 +7,10 @@
         <td>{{$task->id}}</td>
     </tr>
     <tr>
+        <th>状況</th>
+        <td>{{$task->status}}</td>
+    </tr>
+    <tr>
         <th>やること</th>
         <td>{{$task->content}}</td>
     </tr>
